@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>One Codebase, Multiple Platforms with Kotlin Multiplatform</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Red+Hat+Text|PT+Mono|Titillium+Web' rel='stylesheet'>
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-background-image="img/redhat_bg.png" style="color: white; padding-top: 100px;">
+            <!-- This is the first slide -->
+            <h1 class="r-fit-text" style="color: white; font-size: 5vw;">One Codebase, Multiple Platforms</h1>
+            <h1 class="r-fit-text" style="color: white; font-size: 5vw;">with Kotlin Multiplatform</h1>
+            <span style="font-size: 3vw">
+                <p>Jason Lee</p>
+                <p>Principal Software Engineer</p>
+                <p>Red Hat</p>
+                <p>https://jasondl.ee - jason@steeplesoft.com</p>
+            </span>
+        </section>
+
+        <section>
+            <!-- This is the second slide, the speaker's info -->
+            <h3>About Me</h3>
+            <ul>
+                <li class="fragment" data-fragment-index="1">I’m a Principal Software Engineer at Red Hat</li>
+                <li class="fragment" data-fragment-index="2">Software developer since 1997</li>
+                <li class="fragment" data-fragment-index="3">
+                    Java Champion
+                </li>
+                <li class="fragment" data-fragment-index="5">
+                    President of the <a href="https://okcjug.org">Oklahoma City Java Users Group</a>
+                </li>
+                <li class="fragment" data-fragment-index="6">
+                    Author -
+                    <a href="https://www.packtpub.com/application-development/java-9-programming-blueprints">
+                        Java 9 Programming Blueprints
+                    </a>
+                </li>
+                <li class="fragment" data-fragment-index="7">Blogger | <a
+                    href="https://jasondl.ee">https://jasondl.ee</a></li>
+                <li class="fragment" data-fragment-index="8">Misc: Martial Arts, Bass Guitar, Smoking Meats</li>
+            </ul>
+            <div>
+                <img class="fragment" data-fragment-index="3" src="img/duke_champion.png"
+                     style="height: 150px; vertical-align: bottom;">
+                <img class="fragment" data-fragment-index="5" src="https://okcjug.org/img/logo-vertical.png"
+                     style="height: 150px; vertical-align: bottom;">
+                <img class="fragment" data-fragment-index="6"
+                     src="https://content.packt.com/_/image/original/B05785/cover_image_large.jpg"
+                     style="height: 150px; vertical-align: bottom;"/>
+            </div>
+        </section>
+
+        <section data-background-image="img/seine.jpg" style="position: relative"></section>
+
+        <section data-background-image="img/sophie.jpg" style="position: relative"></section>
+
+        <section>
+            <h3>What we'll cover</h3>
+            <ul>
+                <li>What is Kotlin Multiplatform</li>
+                <li>Alternatives</li>
+                <li>My (current) application architecture</li>
+                <li>A walk through a demo app</li>
+            </ul>
+        </section>
+    </div>
+    <div class="footer">
+        <img src="img/rh200.png" alt="Red Hat logo"/>
+    </div>
+</div>
+
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
+        center: false,
+        width: "100%",
+        height: "100%",
+        backgroundTransition: 'slide',
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+</script>
+</body>
+</html>
