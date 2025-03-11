@@ -43,3 +43,22 @@ li code {
     --r-link-color-dark: #990000;
     --r-link-color-hover: #990000;
 }
+
+.align-start {
+    text-align: start;
+    padding: 0 1em 0 1em;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.sub-bullet {
+    /*margin: 0;*/
+    font-size: 75%;
+    font-style: italic;
+}
+
+code {
+    border: 1px white solid;
+}
